@@ -1,0 +1,48 @@
+.cardContainer {
+  width: 400px;
+  height: 400px;
+  margin: 50px 20px;
+
+  background-color: white;
+
+  border: 3px;
+  border-radius: 12px;
+  box-shadow: 8px 5px rgb(37,156,87);
+}
+
+.cardContainer:hover {
+  transition: all 850ms;
+  box-shadow: 24px 15px rgb(37,156,87);
+}
+
+.card__title {
+  margin-top: 35px;
+  text-align: center;
+  color: rgb(47, 214, 117);
+}
+
+.card__content {
+  margin-top: 55px;
+  color: rgb(47, 214, 117);
+  text-align: center;
+}
+
+@media only screen and (max-width: 1015px) {
+  .cardContainer {
+    width: 200px;
+    height: 300px;
+    margin: 50px 20px;
+  
+    background-color: white;
+  
+    border: 3px;
+    border-radius: 12px;
+    box-shadow: 8px 5px rgb(37,156,87);
+  }
+}
+
+@media only screen and (max-width: 1015px) {
+  .cardContainer {
+    margin: 25px 20px;
+  }
+}

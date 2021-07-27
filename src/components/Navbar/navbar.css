@@ -1,0 +1,112 @@
+.main-nav-container {
+  width: 100%;
+  margin-top: 12px;
+
+  /*Colocando os elementos no centro*/
+  display: flex;
+  justify-content: center;
+}
+
+.main-nav-content{
+  /*Largura mais usada em desktops*/
+  width: 1000px;
+}
+
+.main-nav__list {
+  display: flex;
+  justify-content: center;
+
+  padding: 6px;
+
+  /*Colocando uma bordinha gostosa*/
+  border-bottom: 1px;
+  border-left: 1px;
+  border-right: 1px;
+  border-radius: 12px;
+
+  border-style: solid;
+  border-color: white;
+
+  box-shadow: 5px 3px rgb(37,156,87);
+}
+
+.main-nav__ico {
+  width: 60px;
+  height: 60px;
+  margin-right: 100px;
+}
+
+.main-nav__ico:hover {
+  width: 62px;
+  height: 62px;
+}
+
+.main-nav__item {
+  display: inline-block;
+  padding: 12px;
+}
+
+.main-nav__item a{
+  text-decoration: none;
+  color: white;
+  
+  font-size: 1.3rem;
+  font-weight: bold;
+
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.main-nav__item a:hover{
+  background-color: rgba(255,255,255,0.3);  
+}
+
+/*Estilizando meu call to action seus cachorros*/
+.main-nav__item--cta a{
+  background-color: palevioletred;
+}
+
+.main-nav__item--cta a:hover{
+  background-color: white;
+  color: rgb(47,214,117);
+}
+
+@media only screen and (max-width: 1015px) {
+  .main-nav-content{
+    /*Largura mais usada em desktops*/
+    width: 680px;
+  }
+
+  .main-nav__ico {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+  }
+
+  .main-nav__item {
+    padding: 3px;
+  }
+
+  .main-nav__item a {
+    padding: 3px;
+  }
+}
+
+/*Arrumar essa merda*/
+@media only screen and (max-width: 679px) {
+  .main-nav-content {
+    width: 360px;
+  }
+
+  .main-nav__ico {
+    width: 60px;
+    height: 60px;
+    margin-right: 0px;
+  }
+
+  .main-nav__list {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}

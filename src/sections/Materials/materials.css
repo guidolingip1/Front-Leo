@@ -1,0 +1,57 @@
+.materials-container {
+  width: 100%;
+  margin-top: 64px;
+
+  /*Colocando os elementos no centro*/
+  display: flex;
+  justify-content: center;
+}
+
+/*Container filho com 60% da tela*/
+.materials-content {
+  width: 1000px;
+  margin-top: 60px;
+  height: 600px;
+}
+
+.materials-content__title {
+  text-align: center;
+  color: white;
+}
+
+/*Cards*/
+.materials-content__cards{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+
+@media only screen and (max-width: 1015px) {
+  .materials-content {
+    width: 680px;
+    height: 450px;
+  }
+}
+
+@media only screen and (max-width: 679px) {
+  .materials-container {
+    height: 1600px;
+  }
+
+  .materials-content {
+    width: 150px;
+    margin-top: 60px;
+    height: 150px;
+  }
+
+  .materials-content__title {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .materials-content__cards {
+    width: 150px;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

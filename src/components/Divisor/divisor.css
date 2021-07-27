@@ -1,0 +1,52 @@
+.content {
+  height: 50px;
+  position: relative;
+  border-bottom: 2px solid;
+}
+
+.header {
+  height: 50px;
+  background: #2FD675;
+  z-index: 0;
+  position: relative;
+  border-bottom: 2px solid;
+  box-shadow: 8px 5px rgb(35, 143, 80);
+  z-index: 1;
+}
+
+.circle-border {
+  width: 60px;
+  height: 62px;
+  border-radius: 50%;
+  bottom: -32px;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  border: 2px solid;
+  box-shadow: 8px 5px rgb(37,156,87);
+  z-index: 0;
+}
+.circle {
+  width: 60px;
+  height: 60px;
+  background: #2FD675;
+  border-radius: 50%;
+  bottom: -30px;;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 30px;
+  line-height: 60px;
+  z-index: 2;
+}
+
+.fa{
+  color: white;
+}
+
+.fa:hover {
+  color:palevioletred;
+}

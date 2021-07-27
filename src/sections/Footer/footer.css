@@ -1,0 +1,122 @@
+.footer-container {
+  width: 100%;
+  margin-top: 25px;
+
+  /*Colocando os elementos no centro*/
+  display: flex;
+  justify-content: center;
+}
+
+.footer-content {
+  margin-top: 100px;
+  
+  width: 1000px;
+  height: 300px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-content__card {
+  width: 300px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-content-card__title {
+  color: white;
+  margin-bottom: 40px;
+}
+
+.footer-content-card__assine {
+  width: 180px;
+  height: 44px;
+  border-radius: 32px;
+
+  font-size: 18px;
+  font-weight: bold;
+
+  color: white;
+  background-color: rgb(141,105,219);
+  box-shadow: 8px 5px rgb(90 59 156);
+}
+
+.footer-content-card__assine:hover {
+  background-color: palevioletred;
+  box-shadow: 8px 5px rgb(233, 77, 123);
+  cursor: pointer;
+}
+
+.footer-content-card__entre {
+  margin-top: 25px;
+  width: 180px;
+  height: 44px;
+  border-radius: 32px;
+
+  font-size: 18px;
+  font-weight: bold;
+
+  color: rgb(47,214,117);
+  background-color: white;
+  box-shadow: 8px 5px rgb(23, 121, 64);
+}
+
+.footer-content-card__entre:hover {
+  color: white;
+  background-color: palevioletred;
+  box-shadow: 8px 5px rgb(233, 77, 123);
+  cursor: pointer;
+}
+
+.footer-content-card-list {
+  list-style: none;  
+}
+
+.footer-content-card-list__item a{
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer-content-card-list__socials {
+  list-style: none;
+}
+
+.footer-content-card-list__socials img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 12px;
+}
+
+@media only screen and (max-width: 1015px) {
+ .footer-content {
+   width: 680px;
+ }
+
+ .footer-content-card__title {
+   font-size: 20px;
+ }
+ 
+ .footer-content-card-list__item a {
+   font-size: 20px;
+ }
+}
+
+@media only screen and (max-width: 679px) {
+ .footer-content {
+   height: 700px;
+   flex-direction: column;
+   align-items: center;
+ }
+
+ .footer-content__card {
+   margin-bottom: 40px;
+ }
+
+ 
+}

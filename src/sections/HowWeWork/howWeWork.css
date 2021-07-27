@@ -1,0 +1,45 @@
+/*Container pai que mantém o tamanho da tela*/
+.hww-container {
+  width: 100%;
+  margin-top: 54px;
+
+  /*Colocando os elementos no centro*/
+  display: flex;
+  justify-content: center;
+}
+
+/*Container filho com 60% da tela*/
+.hww-content {
+  margin-top: 60px;
+  width: 1000px;
+}
+
+.hww-content__title {
+  text-align: center;
+  color: white;
+  margin-bottom: 25px;
+}
+
+/*Cards*/
+.hww-content__cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 1015px) {
+  .hww-content {
+    margin-top: 60px;
+    width: 680px;
+  }
+}
+
+@media only screen and (max-width: 679px) {
+  .hww-content__title {
+    font-size: 20px;
+  }
+  .hww-content__cards {
+    flex-direction: column;
+    align-items: center;
+  }  
+}
