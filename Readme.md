@@ -1,6 +1,6 @@
 # Front Leo
 
-![Front-leo](https://github.com/guidolingip1/Front-Leo/main/gif-leo.gif)
+![Front-leo](https://github.com/guidolingip1/Front-Leo/blob/main/gif-leo.gif)
 
 ## O que é?
 É um site que fiz para uma Startup, postei pois não contém nenhuma regra de negócio.
