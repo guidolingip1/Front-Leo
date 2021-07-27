@@ -1,10 +1,15 @@
 # Front Leo
 
-## O que é?
-É um site que fiz para uma Startup.
+![Front-leo](https://github.com/guidolingip1/Front-Leo/main/gif-leo.gif)
 
-## Tecnologias
-JavaScript
-HTML
-CSS3 ➔ BEM
-ReactJS
+## O que é?
+É um site que fiz para uma Startup, postei pois não contém nenhuma regra de negócio.
+
+## 🛠️ Technologies
+<div float="left">
+  <img src="https://github.com/guidolingip1/guidolingip1/blob/main/readme-assets/react.png" width="50">
+  <img src="https://github.com/guidolingip1/guidolingip1/blob/main/readme-assets/Javascript.png" width="50">
+  <img src="https://github.com/guidolingip1/guidolingip1/blob/main/readme-assets/html5.png" width="50">
+  <img src="https://github.com/guidolingip1/guidolingip1/blob/main/readme-assets/css3.png" width="50">
+  <img src="https://github.com/guidolingip1/guidolingip1/blob/main/readme-assets/node.png" width="50">
+</div>
