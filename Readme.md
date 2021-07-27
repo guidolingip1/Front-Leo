@@ -3,7 +3,8 @@
 ![Front-leo](https://github.com/guidolingip1/Front-Leo/blob/main/gif-leo.gif)
 
 ## O que é?
-É um site que fiz para uma Startup, postei pois não contém nenhuma regra de negócio.
+É um site que fiz para uma Startup, postei pois não contém nenhuma regra de negócio.\n
+Obs: Eu não tento clicar no Pinheiro, só estou mostrando o hover 🤗
 
 ## 🛠️ Technologies
 <div float="left">
